@@ -6,7 +6,6 @@ This project demonstrates a data warehousing and analytics solution, from buildi
 
 This project was built for **educational purposes** by following the tutorial series by **Baraa Khatib Salkini (Data With Baraa)**.
 
-- Original repository: [DataWithBaraa/sql-data-warehouse-project](https://github.com/DataWithBaraa/sql-data-warehouse-project)
 - Tutorial video: [SQL Data Warehouse Project](https://youtu.be/SSKVgrwhzus)
 - Author's website: [datawithbaraa.com](https://www.datawithbaraa.com)
 
