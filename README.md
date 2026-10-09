@@ -2,6 +2,24 @@
 
 This project demonstrates a data warehousing and analytics solution, from building a data warehouse to generating actionable insights.
 
+## 📌 Executive Summary
+
+**Purpose:** Consolidate sales data from two source systems (ERP and CRM) into a single, reliable data warehouse that supports analytical reporting and decision-making.
+
+**Approach:**
+- Medallion architecture (Bronze, Silver, Gold) on SQL Server
+- Bronze ingests raw CSV data, Silver cleanses and standardizes it, Gold exposes a star schema for reporting
+- SQL-based analytics on top of the Gold layer
+
+**Business value:**
+- One integrated, documented data model instead of two disconnected sources
+- Resolved data quality issues before analysis
+- Insights on customer behavior, product performance, and sales trends
+
+**Scope:** Latest dataset only, no historization. Built for educational purposes, following Data With Baraa's tutorial series.
+
+---
+
 ## 🙏 Acknowledgment
 
 This project was built for **educational purposes** by following the tutorial series by **Baraa Khatib Salkini (Data With Baraa)**.
